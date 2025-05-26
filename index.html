@@ -2,100 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Marybeth Gathoni | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marybeth's Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #004d40;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
     }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-      font-weight: 300;
+
+    header, footer {
+      background-color: #001f3f;
+      text-align: center;
+      padding: 20px;
     }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
     }
-    section {
-      margin-bottom: 2rem;
+
+    .intro {
+      text-align: center;
+      padding: 50px 20px;
     }
-    h2 {
-      color: #004d40;
-      border-bottom: 2px solid #004d40;
-      padding-bottom: 0.3rem;
-      margin-bottom: 1rem;
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: 3px solid #001f3f;
     }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 0.6rem;
-    }
-    a {
-      color: #00796b;
+
+    .linkedin a {
+      color: #00aced;
+      font-weight: bold;
       text-decoration: none;
     }
-    a:hover {
+
+    .linkedin a:hover {
       text-decoration: underline;
     }
-    footer {
+
+    .featured {
       text-align: center;
-      padding: 1rem;
-      background: #004d40;
-      color: white;
-      margin-top: 3rem;
+      padding: 30px 20px;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Marybeth Gathoni</h1>
-    <p>Communications Student | Aspiring Data Analyst | Solar Marketing Enthusiast</p>
+    <h1>Marybeth's Portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I’m Marybeth Gathoni, an aspiring data analyst and university student pursuing Corporate Communication and Management at Jomo Kenyatta University of Agriculture and Technology (JKUAT). Passionate about clean energy and digital marketing, I currently work in solar installation and marketing while sharpening my data analytics skills through the ALX Data Analytics program. I’m dedicated to transforming data into actionable insights that drive sustainable business growth and meaningful communication.</p>
+    <section class="intro">
+      <img src="profile.jpg" alt="Marybeth Gatoto" class="profile-pic">
+      <h2>Hello, I'm Marybeth</h2>
+      <p>
+        I'm passionate about solving real-world problems through data and communication. Currently studying Corporate Communication & Management at JKUAT and Data Analytics at ALX.
+      </p>
+      <div class="linkedin">
+        <p>Connect with me on <a href="https://www.linkedin.com/in/marybeth-gatoto-a87a962b2" target="_blank">LinkedIn</a></p>
+      </div>
     </section>
 
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <ul>
-        <li><strong>Solar Marketing Campaigns</strong><br />Designed and promoted solar installation services on social media platforms to increase brand awareness and engagement.</li>
-        <li><strong>ALX Data Analytics Projects (In Progress)</strong><br />Working on data dashboards and reports using Excel and Power BI.</li>
-        <li><strong>School Project: Communication Strategy</strong><br />Developed a brand communication plan for a local business incorporating market research and strategic messaging.</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>Email: <a href="mailto:gathonigatoto@gmail.com">gathonigatoto@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/marybeth-gatoto-a87a962b2" target="_blank" rel="noopener">linkedin.com/in/marybeth-gatoto-a87a962b2</a></li>
-      </ul>
+    <section class="featured">
+      <h2>Featured Work</h2>
+      <p>Stay tuned for my upcoming data dashboard projects!</p>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Marybeth Gathoni. All rights reserved.
+    <p>© 2025 Marybeth Gatoto. All rights reserved.</p>
   </footer>
 
 </body>
