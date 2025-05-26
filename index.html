@@ -1,98 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marybeth's Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    header, footer {
-      background-color: #001f3f;
-      text-align: center;
-      padding: 20px;
-    }
-
-    nav a {
-      color: #ffffff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .intro {
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    .profile-pic {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 20px;
-      border: 3px solid #001f3f;
-    }
-
-    .linkedin a {
-      color: #00aced;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    .linkedin a:hover {
-      text-decoration: underline;
-    }
-
-    .featured {
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    footer {
-      font-size: 14px;
-      color: #aaa;
-    }
-  </style>
+    <title>Marybeth's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e0e6f0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #001f3f;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #e0e6f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .intro {
+            text-align: center;
+            padding: 40px;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        .linkedin {
+            margin-top: 20px;
+        }
+        .linkedin a {
+            color: #00aced;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Marybeth's Portfolio</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <main>
+        <section class="intro">
+            <img src="profile.jpg" alt="Marybeth's Photo" class="profile-pic">
+            <h2>Hello, I'm Marybeth</h2>
+            <p>
+                I'm a curious and driven learner passionate about solving real-world problems through data. 
+                As a student of Corporate Communication and Management at JKUAT, and a participant in the ALX Data Analytics program,
+                I'm building skills to bridge the gap between people and data.
+            </p>
+            <div class="linkedin">
+                <p>Connect with me on <a href="https://www.linkedin.com/in/marybeth-gatoto-a87a962b2" target="_blank">LinkedIn</a></p>
+            </div>
+        </section>
 
-  <main>
-    <section class="intro">
-      <img src="profile.jpg" alt="Marybeth Gatoto" class="profile-pic">
-      <h2>Hello, I'm Marybeth</h2>
-      <p>
-        I'm passionate about solving real-world problems through data and communication. Currently studying Corporate Communication & Management at JKUAT and Data Analytics at ALX.
-      </p>
-      <div class="linkedin">
-        <p>Connect with me on <a href="https://www.linkedin.com/in/marybeth-gatoto-a87a962b2" target="_blank">LinkedIn</a></p>
-      </div>
-    </section>
+        <section class="featured">
+            <h2>Featured Project</h2>
+            <p>Coming soon: a dashboard that tells stories through data!</p>
+        </section>
+    </main>
 
-    <section class="featured">
-      <h2>Featured Work</h2>
-      <p>Stay tuned for my upcoming data dashboard projects!</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Marybeth Gatoto. All rights reserved.</p>
-  </footer>
-
+    <footer>
+        <p>© 2024 Marybeth. All rights reserved.</p>
+    </footer>
 </body>
 </html>
